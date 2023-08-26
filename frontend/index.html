@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div id="app" class="app">
+      <div class="whiteboard-container" id="whiteboard-container">
+        <canvas class="whiteboard" id="whiteboard"></canvas>
+      </div>
+      <div class="message-panel">
+        <div class="message-container" id="message-container"></div>
+        <div class="message-name">
+          <input
+            type="text"
+            placeholder="Type your name here..."
+            id="name-input"
+          />
+        </div>
+        <div class="message-input">
+          <input
+            type="text"
+            placeholder="Type your message here..."
+            id="message-input"
+          />
+          <button id="message-send-btn">Send</button>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
