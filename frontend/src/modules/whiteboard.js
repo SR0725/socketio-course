@@ -3,7 +3,8 @@ import throttle from "@/utils/throttle";
 
 const whiteboardContainer = document.getElementById("whiteboard-container");
 const canvas = document.getElementById("whiteboard");
-const ctx = canvas.getctx("2d");
+console.log(canvas);
+const ctx = canvas.getContext("2d");
 const current = {
   x: 0,
   y: 0,

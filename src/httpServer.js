@@ -4,7 +4,7 @@ import http from "http";
 const app = express();
 const server = http.createServer(app);
 
-const staticFileMiddleware = express.static("dist");
+const staticFileMiddleware = express.static("frontend/dist");
 app.use(staticFileMiddleware);
 
 server.listen(3000, function () {
